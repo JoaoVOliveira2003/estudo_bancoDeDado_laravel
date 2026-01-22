@@ -1,10 +1,6 @@
 *
-
 !routes/
 !database/
-
-!.env
-
 !.gitignore
 
 !routes/**
