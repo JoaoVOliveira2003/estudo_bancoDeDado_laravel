@@ -64,3 +64,8 @@ Route::get('/daParaConfigurarPelaFuncao', function () {
         die('erro' . $e);
     }
 });
+
+Route::get('/migration', function () {
+        DB::connection()->getPdo();
+    echo 'oie';
+});
